@@ -20,7 +20,7 @@ Angular.module(App, [
 ]);
 
 new Loader(App)
-    .load(ChatsCtrl);
+    .load(ChatsCtrl)
     .load(RoutesConfig);
 
 //Startup
